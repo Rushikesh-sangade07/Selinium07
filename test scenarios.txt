@@ -1,0 +1,891 @@
+
+*Test scenario of chair*
+
+
+Verify that the chair is stable enough to take an average human load
+Check the material used in making the chair-wood, plastic etc
+Check if the chair’s leg are level to the floor
+Check the usability of the chair as an office chair, normal household chair
+Check if there is back support in the chair
+Check if there is support for hands in the chair
+Verify the paint’s type and color
+Verify if the chair’s material is brittle or not
+Check if cushion is provided with chair or not
+Check the condition when washed with water or effect of water on chair
+Verify that the dimension of chair is as per the specifications
+Verify that the weight of the chair is as per the specifications
+Check the height of the chair’s seat from floor
+
+
+*UI Test Scenarios for ATM Machine*
+
+The UI test cases cover the testing of the Graphical User Interface of the application under test which is an ATM machine in our case. Some UI test cases for ATM machine are-
+
+Verify that all the labels and controls including text-boxes, buttons, images, and links are present on the screen.
+Verify that the informative text written displayed on the screen is clearly visible and legible.
+Verify that the size, color, and UI of the different objects are as per the specifications. 
+Verify that the application’s UI is responsive i.e. it should adjust to different screen resolutions of ATM machines.
+
+*Functional Test Scenarios for ATM Machine*
+
+The functional test cases are the test cases that involve testing the different functional aspects of the application under test. Following are some functional test cases for an ATM machine-
+
+Verify the type of ATM machine, if it is completely touch-enabled, with both keypad buttons only or both.
+Verify that the user is presented with options when the card is inserted correctly.
+Verify that no option to continue and enter credentials is displayed to the user when the card is inserted incorrectly.
+Verify that the touch of the ATM screen is smooth and operational.
+Verify that the user is presented with the option to choose a language for further operations.
+Verify that the user is asked to enter pin number before displaying any card/bank account detail.
+Verify that there is a limited number of attempts up to which the user is allowed to enter pin code.
+Verify that if a total number of incorrect pin attempts gets surpassed then the user is not allowed to continue further and operations like temporary blocking of the card, etc get initiated.
+Verify that the pin is displayed in masked form when entered.
+Verify that the user is presented with different account type options like- saving, current, etc.
+Verify that the user is allowed to get account details like available balance.
+Verify that the correct amount of money gets withdrawn as entered by the user for cash withdrawal.
+Verify that the user is only allowed to enter the amount in multiples of denominations as per the specifications.
+Verify that the user is prompted to enter the amount again in case the amount entered is less than the minimum amount configured.
+Verify that the user cannot withdraw more amount than the total available balance and a proper message should be displayed.
+Verify that the user is provided the option to get the transaction details in printed form.
+Verify that the user’s session timeout is maintained.
+Verify that the user is not allowed to exceed one transaction limit amount.
+Verify that the user is not allowed to exceed the one-day transaction limit amount.
+Verify that the user is allowed to do only one transaction per pin request.
+Verify that in case the ATM machine runs out of money, a proper message is displayed to the user.
+Verify that the applicable fee gets deducted along with the withdrawn amount in case the user exceeds the limit of the number of free transactions in a month.
+Verify that the applicable fee gets deducted along with the withdrawn amount in case the user uses the card of a bank other than that of ATM.
+Verify that the user is not allowed to proceed with the expired ATM card and proper error message gets displayed.
+Verify that in case sudden electricity loss before withdrawing cash, the transaction is marked as null and the amount is not withdrawn from the user’s account.
+
+
+*Positive Test scenarios of bike*
+
+Check if the bike is of type electric start, manual start or both
+Verify that the bike starts smoothly using the available options
+Check the amount of force to kick-start the bike
+Verify that bike runs smoothly and attain desired speed when accelerated
+Verify that the maximum speed attained by bike is as per the specification
+Verify that the maximum acceleration attained by bike is as per the specification
+Verify that noise made by bike is within the acceptable decibel levels
+Verify that both the brakes work correctly
+Verify that clutch works correctly
+Check the number of gears in bike
+Verify that user can change the gear from lower to higher
+Verify that user can change the gear from higher to lower
+Verify that bike can be ridden on all types of road surfaces – charcoal, cement, wet road etc
+Verify that bike can be ridden on all weather conditions
+Verify that bike can be ridden on slop and ramp
+Verify the mileage of the bike is as per the specification when driven on standard surface
+Check the pick-up of the bike
+Check the fuel tank capacity of the bike
+Check the fuel type requirement
+Verify that the pollution is within the permissible limit
+Verify that the fuel meter displays correct status of fuel
+Verify that speedometer displays correct speed of the bike
+Verify that the dashboard displays all the information correctly
+Verify that indicators and indicator light works correctly
+Verify that the headlight work correctly
+Check if bike has reserve oil or not
+Verify that horn works correctly
+
+
+*Negative Test cases*
+
+Check if the bike starts when fuel other than prescribed fuel is filled in the bike
+Check the condition of bike when tyres are filled with pressure less or more than specified
+Check the condition of bike when both the tyres have different air pressure
+Check bike’s condition when it is ridden at high speed on first gear only
+
+
+*Test case scenarios of calculator*
+
+
+Check if the calculator is a normal calculator or scientific calculator
+Verify that all the buttons are present and text written on them is readable
+Check the arithmetic operations are working fine- +, -, /, * etc
+Verify that BODMAS is applied in case of complex queries and correct result is returned
+Verify that the calculator gives the correct result in case of operations containing decimal numbers
+Check if the calculator is battery operated or works on solar power
+Verify the outer body material of the calculator
+Verify the spacing between the two buttons, the buttons should not be too closely placed
+Check the pressure required to press a button, the pressure required should not be too high
+Verify the number of digits allowed to enter in the calculator for any operation
+Verify the limit of the response value
+Verify the functioning of memory functions
+Check if calculator allows to navigate through previous calculations
+Verify that hitting ‘C’ cancels any digits or operation added
+Verify the working of ON-OFF button in the calculator
+Check if keeping the calculator unused for certain period of time, turns it off automatically
+Verify that on pressing two operators one after the other, the latest one will override the previous operator
+Verify the state of the calculator when two buttons are pressed simultaneously
+Verify if user can delete a digits one by one using backspace key
+
+
+*Test case scenarios of car*
+
+
+Verify that car should get unlocked and start smoothly on unlocking with its key
+Verify that car gets driven smoothly at normal speed on road and under normal climatic condition
+Verify that clutch, break and accelerator functions are working correctly
+Verify the engine type of car – whether it is Petrol, Diesel or CNG engine
+Verify the car’s performance on different types of roads- charcoal, cement etc
+Verify car’s performance and fuel consumption on plains, hills and slops
+Verify that the mileage of the car is as per the specification
+Verify that the dimensions of the car are as per the specification
+Check if the car is sports car or luxury car
+Check that the fuel capacity is as per the specification
+Check if the steering is power steering or not
+Check if gears are automatic or manual
+Verify if the reverse gear of the car works correctly
+Check if the height of the car’s floor is at an optimum distance from road
+Verify the top speed of the car under normal conditions
+Verify the maximum acceleration of the car
+Verify the car’s outer body material
+Check if the car’s pane is made of tempered glass or not
+Check the number of seats in the car
+Check if the hand brakes are functional or not
+Verify that brakes work correctly and gets applied in a timely manner or not
+Verify the type and power of battery
+Check if the headlights are working fine and give proper lighting when applied at night/dark
+Verify the shock absorber of the car
+Verify if the air bags are present or not and are functional if present
+Check if centre locking is present or not and is functional if present
+Check if the seat belts are present and are functioning correctly
+Verify car’s interior- spacing, material, quality etc
+Verify if the speedometer, fuel meter and other indicators are working fine or not
+Verify cars performance, tyre’s grip on driving the car on rainy day
+Verify that car should get started and run smoothly on using it after several days
+Check the automatic car lock functionality
+Verify that car’s back light should get lightened on reversing the car
+Verify that left and right indicators should function correctly
+Check if anti-theft alarm is working correctly or not
+Negative test cases of Car
+Verify the car’s functioning on filling it with non-prescribed fuel type
+Drive car at high speed on first gear only
+Keep the air pressure different on all the four tyres and than drive the car
+Use hand break while driving the car
+Try to start the car with some other key
+Check the condition of tyres on filling them at pressure higher than prescribed
+Check the condition, speed and fuel consumption of car on filling the tyres with pressure less than prescribed
+Check car’s speed, performance and fuel consumption on driving the car on roads not conducive for driving
+
+
+*Test case scenarios of coffee machine*
+
+UI scenario – Verify that the dimension of the coffee machine is as per the specification
+Verify that outer body as well as inner part’s material are as per the specification
+Verify that the machine’s body color as well brand are correctly visible and as per specification
+Verify the input mechanism for coffee ingredients-milk, water, coffee beans/powder etc
+Verify that the quantity of hot water, milk, coffee powder per serving is correct
+Verify the power/voltage requirements of the machine
+Verify the effect of suddenly switching off the machine or cutting the power. Machine should stop in that situation and in power resumption, the remaining coffee should not get come out of the nozzle.
+Verify that coffee should not leak when not in operation
+Verify the amount of coffee served in single serving is as per specification
+Verify that the digital display displays correct information
+Check if the machine can be switched on and off using the power buttons
+Check for the indicator lights when machine is switched on-off
+Verify that the functioning of all the buttons work properly when pressed
+Verify that each button has image/text with it, indicating the task it performs
+Verify that complete quantity of coffee should get poured in single operation, no residual coffee should be present in the nozzle
+Verify the mechanism to clean the system work correctly- foamer
+Verify that the coffee served has the same and correct temperature each time it is served by the machine
+Verify that system should display error when it runs out of ingredients
+Verify that pressing coffee button multiple times lead to multiple serving of coffee
+Verify that there is passage for residual/extra coffee in the machine
+Verify that machine should work correctly in different climatic, moistures and temperature conditions
+Verify that machine should not make too much sound when in operation
+Performance test – Check the amount of time the machine takes to serve a single serving of coffee
+Performance test – Check the performance of the machine when used continuously till the ingredients run out of the requirements
+Negative Test – Check the functioning of coffee machine when two/multiple buttons are pressed simultaneously
+Negative Test – Check the functioning of coffee machine with lesser or higher voltage then required
+Negative Test – Check the functioning of coffee machine if the ingredient container’s capacity is exceeded
+
+
+*Test case scenarios of door*
+
+
+Verify if the door is single door or bi-folded door
+Check if the door opens inwards or outwards
+Verify that the dimension of the doors are as per the specifications
+Verify that the material used in the door body and its parts is as per the specifications
+Verify that color of the door is as specified
+Verify if the door is sliding door or rotating door
+Check the position, quality and strength of hinges
+Check the type of locks in the door
+Check the number of locks in the door interior side or exterior side
+Verify if the door is having peek-hole or not
+Verify if the door is having stopper or not
+Verify if the door closes automatically or not – spring mechanism
+Verify if the door makes noise when opened or closed
+Check the door condition when used extensively with water
+Check the door condition in different climatic conditions- temperature, humidity etc
+Check the amount of force- pull or push required to open or close the door
+
+
+*Test case scenarios of facebook app*
+
+Facebook User Timeline Scenarios
+
+Verify that user can set profile pic uploaded from his or her computer.
+Verify that user can set profile pic uploaded from mobile.
+Verify that uer can set profile pic from photos present on his facbook account’s photo section.
+Verify that user can set profile from webcam or mobile camera.
+Verify that user can set cover pic uploaded from his or her computer.
+Verify that user can set cover pic uploaded from mobile.
+Verify that user can set cover pic from photos present on his facbook account’s photo section.
+Verify that user can set cover from webcam or mobile camera.
+Verify that uploading image of unsupported type should lead to error message.
+Verify that uploading image of size exceeding maximum allowed size should lead to error message.
+Verify that uploading image of size less than the allowed minimum size should lead to error message.
+Verify that uploading image of larger dimension than permitted should lead to error message.
+Verify that uploading image of smaller dimension than permitted should lead to error message.
+Verify that change in profile pic should get reflected in each post/comment of the user’s timeline.
+Verify that user can add/edit their account information displayed to other users.
+Verify that users can post text in their timeline and the same gets displyed to their friends.
+Verify that users can post images in their timeline and the same gets displyed to their friends.
+Verify that users can post links with or without preview in their timeline and the same gets displayed to their friends.
+Verify that user can tag friends in their posts.
+Verify that users can see the all the post in their timeline.
+Verify that users can see comments, likes and reactions in the posts present in their timeline.
+Verify that users can post comments, like and react to the posts present in their timeline.
+
+Friends and their Timelines Scenario
+
+Verify that the user can search for friends in facebook’s ‘Find friends’ search functionality.
+Verify that users can send a friend requests to any user by visiting their page.
+Verify that the user can navigate through their Friend’s friend and send a friend requests to them.
+Verify that the user can approve or decline received friend request.
+Verify that the user can unfriend any existing friend.
+Verify that users can see the timeline of their friends.
+Verify that users can post text in their friend’s timeline.
+Verify that users can post images in their timeline and the same gets displayed to their friends.
+Verify that users can post links with or without preview in their friend’s timeline.
+Verify that users can tag friends in their posts on a friend’s timeline.
+Verify that users can see all the posts in their friend’s timeline.
+Verify that users can see comments, likes, and reactions in the posts present in their friend’s timeline.
+Verify that users can post comments, like and react to the posts present in their friend’s timeline.
+
+Facebook Notification Test Scenarios
+
+Verify that users receive different notifications on facebook ‘Notifications’ icon.
+Verify that users receive different notifications on email or cell phone based on the settings chosen when not logged in to Facebook.
+Verify that users receive a notification when their friend request gets approved.
+Verify that users receive a notification when they get a friend request.
+Verify that users receive a notification when they get tagged by someone on posts or comments.
+Verify that users receive a notification when they get comments, like or reactions on their posts.
+Verify that users receive notification when someone posts on their timeline.
+
+
+
+
+*Test case scenarios of fan *
+
+Check the type of fan – whether the fan is ceiling fan or table fan
+Verify the number of blades on the fan
+Verify the ON-OFF functionality of fan
+Verify if the fan works normally-throws wind on the right direction
+Verify the material of which fan’s blade and other parts are made
+Check the voltage/power requirement of the fan
+Verify the maximum speed of fan
+Check the minimum speed of the fan
+Verify that the speed of fan can be regulated using regulator
+Verify that when in motion, the fan should not wobble
+Check the length of the fan rod and blades
+Verify that the weight of the fan is as per the specifications
+Verify that the color of the fan is as per the specifications
+Check the effect of voltage fluctuation on fan when in motion
+Check the effect of sudden electricity outage on fan’s motor and other electrical parts
+Verify the fan’s condition when continuously switched on for very large duration
+Check if there is any life time of fan’s internal parts or the body
+Check if the blades of the fan can be bend or not, check if its material is brittle
+Check the time taken by fan to attain maximum speed, when switched ON
+
+
+*Test case scenarios of flight reservation system *
+
+Verify that there is a portal to add new flights in the system.
+Verify that on filling flight details like flight name, code, from and to destinations, capacity, timings, and frequency etc, new filghts get successfully added in the system.
+Verify that users can search for flights by name, from-to airports or flight code for checking their status and timings.
+Verify that search results have flight details, timings and availability.
+Verify that clicking the search results open complete details for flight.
+Verify that the user should see realtime flight status of availability of seats.
+Verify that the user is presented with a graphical view of the airline’s sitting arrangement along with seat number and availability status.
+Verify that the pricing of different types of seats is displayed to the users.
+Verify that users can successfully select single or more than one seat.
+Verify that the user can not select or is not permitted to select seats that are already booked or not allowed for booking.
+Verify that after selecting seats, entering passenger details and making payment the selected seats get booked.
+Verify that on successful booking the ticket should be visible and downloadable.
+Verify that after successful booking the seat’s status is updated to booked.
+Verify that the user also receives confirmation mail along with tickets on the emailIds provided while filling the details.
+Verify the maximum limit of seats that a user can book, selecting more seats than permitted results in error message.
+Verify that all the different types of payment methods work fine.
+Verify that user is presented with additional options like- luggage, extra legroom, foods/beverages, etc and selecting the same results in additional cost with the booking amount.
+Verify that the user can also cancel the tickets booked by entering the mandatory details and the amount after deducting the cancellation fee gets refunded back to user.
+Verify that after cancellation the seat’s status is updated to available.
+
+
+
+*Test case scenarios of Gmail *
+
+Test Scenarios for Inbox Functionality(Receive Email)
+
+Verify that a newly received email is displayed as highlighted in the Inbox section.
+Verify that a newly received email has correctly displayed sender email Id or name, mail subject and mail body(trimmed to a single line).
+Verify that on clicking the newly received email, the user is navigated to email content.
+Verify that the email contents are correctly displayed with the desired source formatting.
+Verify that any attachments are attached to the email and are downloadable.
+Verify that the attachments are scanned for viruses before download.
+Verify that all the emails marked as read are not highlighted.
+Verify that all the emails read as well as unread have a mail read time appended at the end on the email list displayed in the inbox section.
+Verify that count of unread emails is displayed alongside ‘Inbox’ text in the left sidebar of Gmail.
+Verify that unread email count increases by one on receiving a new email.
+Verify that unread email count decreases by one on reading an email ( marking an email as read).
+Verify that email recipients in cc are visible to all users.
+Verify that email recipients in bcc are not visible to the user.
+Verify that all received emails get piled up in the ‘Inbox’ section and get deleted in cyclic fashion based on the size availability.
+Verify that email can be received from non-Gmail email Ids like – yahoo, Hotmail etc.
+
+Test scenarios for Compose mail Functionality
+
+Verify that on clicking ‘Compose’ button, a frame to compose a mail gets displayed.
+Verify that user can enter email Ids in ‘To’, ‘cc’ and ‘bcc’ sections and also user will get suggestions while typing the emailds based on the existing emailIds in user’s email list.
+Verify that the user can enter multiple comma-separated emailIds in ‘To’, ‘cc’ and ‘bcc’ sections.
+Verify that the user can type Subject line in the ‘Subject’ textbox.
+Verify that the user can type the email in the email-body section.
+Verify that users can format mail using editor-options provided like choosing font-family, font-size, bold-italic-underline, etc.
+Verify that the user can attach file as an attachement to the email.
+Verify that the user can add images in the email and select the size for the same.
+Verify that after entering emailIds in either of the ‘To’, ‘cc’ and ‘bcc’ sections, entering Subject line and mail body and clicking ‘Send’ button, mail gets delivered to intended receivers.
+Verify that sent mails can be found in ‘Sent Mail’ sections of the sender.
+Verify that mail can be sent to non-gmail emailIds also.
+Verify that all sent emails get piled up in the ‘Sent Mail’ section and get deleted in cyclic fashion based on the size availability.
+Verify that the emails composed but not sent remain in the draft section.
+Verify the maximum number of email recipients that can be entered in ‘To’, ‘cc’ and ‘bcc’ sections.
+Verify the maximum length of text that can be entered in the ‘Subject’ textbox.
+Verify the content limit of text/images that can be entered and successfully delivered as mail body.
+Verify the maximum size and number of attachment that can be attached with an email.
+Verify that only the allowed specifications of the attachment can be attached with an email/
+Verify that if the email is sent without Subject, a pop-up is generated warning user about no subject line. Also, verify that on accepting the pop-up message, the user is able to send the email.
+
+
+*Test case scenarios of google search*
+
+Verify that the response fetched for a particular keyword is correct and related to the keyword, containing links to the particular webpage
+Verify that the response are sorted by relevancy in descending order i.e. most relevant result for the keyword are displayed on top
+Verify that response for multi word keyword is correct
+Verify that response for keywords containing alphanumeric and special characters is correct
+Verify that the link title, URL and description have the keyword highlighted in the response
+Verify auto-suggestion in Google e.g. providing input as ‘fac’ should give suggestions like ‘facebook’, ‘facebook massenger’, ‘facebook chat’ etc
+Verify that response fetched on selecting the suggested keyword and on providing the keyword directly should be same
+Verify that the suggestion provided by Google are sorted by most popular/relevant suggestions
+Verify that user can make search corresponding to different categories – web, images, videos, news, books etc and response should correspond to the keyword in that category only
+Verify that misspelled keyword should get corrected and response corresponding to the correct keyword should get displayed
+Verify that multi word misspelled keywords also get corrected
+Verify the performance of search- check if the time taken to fetch the response is within the ballpark
+Verify that total number of results fetched for a keyword
+Verify that the search response should be localised that is response should be more relevant to the country/area from which the search request is initiated
+Verify Google calculator service- make any arithmetic request, calculator should get displayed with correct result
+Verify Google converter service- make request like- 10USD in INR and check if the result is correct
+Verify search response for a large but valid strings
+Verify that incorrect keywords – keywords not having related result should lead to “did not match any documents” response
+Verify that user can make search using different languages
+Verify that for a keywords, some related search terms are also displayed to aid user’s search
+Verify that for number of results more than the limit on a single page, pagination should be present, clicking on which user can navigate to subsequent page’s result
+Verify Google’s advanced search options like- searching within a website, searching for files of specific extension
+Verify if the search is case-insensitive or not
+Verify the functionality of “I’m feeling Lucky” search- the top most search result should get directly returned (but as of now google doodle page link is displayed)
+
+
+*Test case scenarios of hospital*
+
+
+Verify that the portal for new patient registration has all the mandatory fields required for registering a patient.
+Verify that after filling the patient details and successful payment a Patient-Card is printed.
+Verify that card has information like patient details, doctor assigned, department, the application number, DOJ, bed allocated(if applicable) etc.
+Verify that after patient checkup based on the requirement the details are updated in the patient details database.
+Verify that for existing patients based on the application number of the patient, their records are added/updated in the database.
+Verify that the system has an admin for doctors as well.
+Verify that for each doctor’s details like their timings, specialty, fee, patient visited etc is visible to the authorized users.
+Verify that new details of new doctors can be added to the system.
+Verify that the details of existing users can be updated in the system.
+Verify that the doctor’s record can be deleted from the system.
+Verify the billing admin of the system calculates the bill based on the patient’s unique application number from the data generated from different systems.
+Verify that the hard copy of the bill can be generating by printing the bill.
+Verify that authorized users can also see total day-wise billing done.
+Verify the admin for hospital inventory, room and bed management.
+Verify that the admin has the record of all the equipment, machines and medicines and the same gets updated when used or added to the system.
+Verify that the admin has a record of rooms and beds availability and the same gets updated based on their allotment and departure to patients.
+
+
+
+*Test case scenarios of keyboard *
+
+Check if all the keys- characters, numeric, function, special characters, and arrow keys are present
+Verify the ordering of the keys is as per the QWERTY standard
+Check the functioning of each type of key-characters, numeric, function, special characters, and arrow keys
+Verify the working of the keys that work in combination like- shift+{other keys}
+Check if the dimension of the key is as per the specification
+Check the color of both keyboard body as well as the text written over the buttons
+Check if the font type and size is as per the specification and legible
+Check if the pressure required to press a key is not too high
+Check the spacing between two keys, keys should not be congested and at the same time not too widely placed
+Verify that in case of caps lock and other similar keys- an indicator light glows
+Check if keys don’t make too much noise when clicked
+Verify if the keyboard is a wireless or wired keyboard
+In case the keyboard is wireless, verify the range of keyboard
+In case of a wired keyboard, check the length of the keyboard
+Verify if the keyboard contains multimedia functions as well
+
+
+
+
+*Test case scenarios of kindle *
+
+Verify that the dimensions of the Kindle device are as per the specifications.
+Verify the screen resolution or the pixel density of the kindle.
+Verify that ebooks are easily loaded in kindle.
+Verify that the text is written is easily readable.
+Check the ebook format supported by the device – .azw, .azw3, .mobi, .txt etc.
+Verify the number of ebooks that can be stored in the device or the size of the ebooks.
+Check if the color of the device is as per the specifications or not.
+Verify the quality of the Kindle device’s screen.
+Check if the screen is anti-glare or not.
+Check the font family supported by the device.
+Check if there is an option to increase the font size or not and the functionality works correctly.
+Check if there is an option to change the screen brightness/contrast/sharpness and the functionality works correctly.
+Check if the touch works fine or not.
+Check the battery stand by time and performance when in use.
+Check the network connectivity options – 3G or wifi.
+Check if charging cable is provided with kindle or not.
+Check the power requirement of the device.
+
+
+*Test case scenarios of lift *
+
+Verify the dimensions of the lift
+Verify the type of door of the lift is as per the specification
+Verify the type of metal used in the lift interior and exterior
+Verify the capacity of the lift in terms of the total weight
+Verify the buttons in the lift to close and open the door and numbers as per the number of floors
+Verify that lift moves to the particular floor as the button of the floor is clicked
+Verify that lift stops when up/down buttons at particular floor are pressed
+Verify if there is an emergency button to contact officials in case of any mishap
+Verify the performance of the floor – the time is taken to go to a floor
+Verify that in case of power failure, lift doesn’t free-fall and get halted in the particular floor
+Verify lifts working in case button to open the door is pressed before reaching the destination floor
+Verify that in case door is about to close and an object is placed between the doors if the doors sense the object and again open or not
+Verify the time duration for which door remain open by default
+Verify if lift interior is having proper air ventilation
+Verify lighting in the lift
+Verify that at no point lifts door should open while in motion
+Verify that in case of power loss, there should be a backup mechanism to safely get into a floor or a backup power supply
+Verify that in case multiple floor number button is clicked, lift should stop at each floor
+Verify that in case of capacity limit is reached users are prompted with warning alert- audio/visual
+Verify that inside lift user are prompted with current floor and direction information the lift is moving towards- audio/visual prompt
+
+
+
+
+*Test case scenarios of log in page *
+
+UI Test Scenarios for Login Page
+
+Verify that all the labels and controls including text-boxes, buttons, and links are present on the Login page.
+Verify that the font type and size of the labels and the text written on the different elements should be clearly visible.
+Verify that the size, color, and UI of the different elements are as per the specifications. 
+Verify that the application’s UI is responsive i.e. it should adjust to different screen resolutions and devices.
+
+
+Functional Test Scenarios for Login Page
+
+Verify that as soon as the login page opens, by default the cursor should remain on the username textbox.
+Verify that the user is able to navigate or access the different controls by pressing the ‘Tab’ key on the keyboard.
+Verify that the password is in masked form when entered.
+Verify if the password can be copy-pasted or not.
+Verify that the user is able to login by entering valid credentials and clicking on the ‘Login’ button.
+Verify that the user is able to login by entering valid credentials and pressing Enter key.
+Verify that the user is not able to login with an invalid username and password.
+Verify that the validation message gets displayed in case the user leaves the username or password field as blank.
+Verify that the validation message is displayed in the case the user exceeds the character limit of the user name and password fields.
+Verify that reset button functionality on the login page. Clicking on it should clear the textbox’s content.
+Verify if there is a checkbox with the label “remember password” on the login page.
+Verify that closing the browser should not log-out an authenticated user. Launching the application should lead the user to login state only.
+
+Security Test Scenarios
+
+Verify that there is a limit on the total number of unsuccessful login attempts. So that a user cannot use a brute-force mechanism to try all possible combinations of username-password.
+Verify that in case of incorrect credentials, a message like “incorrect username or password” should get displayed instead of an exact message pointing to the incorrect field. This is because a message like “incorrect password” will help a hacker in knowing that the username is correct and he just needs to try a different combination on the password field only.
+Verify the login session timeout duration. So, that once logged-in a user cannot be authenticated for a life-time.
+Verify that once logged in, clicking the back button doesn’t logout the user.
+Verify if SQL Injection attacks work on the login page. The application should not be vulnerable to SQL injection attacks.
+Verify that XSS vulnerability should not work on the login page.
+
+
+
+*Test case scenarios of Mobile Phone*
+
+Verify that all the required buttons- numbers 0-9, calling buttons etc are present-
+Verify that the user can make a call by pressing numbers and hitting calling(green) button
+Verify that user can make a call by selecting a contact person from the phone directory
+Verify that the user can reject an incoming call
+Verify that the user can receive an SMS
+Verify that the user can type and send an SMS
+Verify that the dimension of the mobile is as per specification
+Verify the screen size of the mobile
+Verify that the weight of the mobile is as per the specification
+Verify the font type and size of the characters printed on the keypad
+Verify the color of the mobile phone’s outer body and characters printed on keypad
+Verify the pressure required to press a key on the keypad
+Verify that spacing between the keys on the keypad are adequate
+Check the type of mobile- smartphone or normal
+Check if the mobile is colored or black-white
+Check the lighting on the mobile screen is adequate- verify in dark daylight
+Check if a mobile phone can be locked out without password or pin
+Check if mobile phone can be locked out with password or pin
+Verify that the mobile phone can be unlocked with/without password
+Verify that the user can receive a call when the phone is locked
+Verify that receiving a call when phone is locked, doesn’t unlock it after call completion
+Verify that user can select an incoming call and SMS alert ringtone
+Verify that the user can make silent or vibrate mode or incoming calls and SMS
+Verify the battery requirement of the mobile
+Verify the total time taken to charge the mobile completely
+Verify the total time for mobile to get completely discharged when left idle
+Verify the total talk for mobile to get completely discharged when continuously used in conversation
+Verify the length of charger wire
+Verify that mobile can be switched off and ON
+Verify that user can store contact details on the phone book directory
+Verify that user can delete and update contact details in the phonebook directory
+Verify that Call logs are maintained in the Call Logs
+Verify that received and Sent SMSs are saved in mobile
+Verify that user can silent the phone during an incoming call
+Verify the auto-reject option can be applied and removed on particular numbers
+
+
+*Test case scenarios of Mouse *
+
+Check if the mouse is an optical mouse or not
+Verify that left-click and right-click buttons are working fine
+Check if the double click is working fine
+Verify the time duration between two left clicks, in order to consider it as double click
+Check if scroller is present at the top or not
+Verify the speed of mouse pointer
+Check the pressure required for clicking the mouse buttons
+Verify the acceleration of mouse pointer
+Verify that clicking the button and dragging the mouse operation is working fine(drag and drop functionality)
+Check the dimension of the mouse, if it’s suitable to grip and work
+Verify that the mouse works in all the allowed surfaces
+Check if the mouse is a wireless mouse or corded mouse
+In case of wireless mouse, check the range up to which the mouse remains operational
+In case of wireless mouse, check the battery requirement of the mouse
+Check if there is an option to switch on or mouse
+
+
+
+*Test case scenarios of Microwave Oven *
+
+Verify that the dimensions of the oven are as per the specification provided.
+Verify that the oven’s material is optimal for its use as an oven and as per the specification.
+Verify that the oven heats the food at the desired temperature properly.
+Verify that oven heats food at the desired temperature within specified time duration.
+Verify the ovens functioning with maximum attainable temperature.
+Verify the ovens functioning with minimum attainable temperature.
+Verify that the oven’s plate rotation is speed is optimal and not too high to spill the food kept over it.
+Verify that the oven’s door gets closed properly.
+Verify that the oven’s door open’s smooth.
+Verify the battery requirement of the microwave oven and check that it function’s smoothly at that power.
+Verify that the text written over the oven’s body is clearly readable.
+Verify that the digital display is clearly visible and functions correctly.
+Verify that the temperature regulator is smooth to operate.
+Verify that the temperature regulator works correctly.
+Check the maximum capacity of the oven and test its functioning with that volume of food.
+Check oven’s functionality with different kinds of food – solid, liquid.
+Check the oven’s functionality with different food at different temperatures.
+Verify the oven’s functionality with different kinds of container material.
+Verify that the power cord of the oven is long enough.
+Verify that the usage instruction or user manuals have clear instructions
+
+
+
+*Test case scenarios of Notepad *
+
+Verify that on launching the notepad application, the notepad editor should open with its default size.
+Verify that user can write/type alphabets from a standard keyboard.
+Verify that user can type numerics from a standard keybaord
+Verify that user can type special characters and symbols on notepad editor window.
+Verify that by default the font size is normal or as per the specifications.
+Verify that user can set the font size and family.
+Verify that user can save the text in a file.
+Verify that user can open any exiting file in notepad.
+Verify that file formats not permitted by notepad are not loaded and doesn’t corrupt the application.
+Verify that user can append text to any file and again save the file.
+Verify that user can select, copy and paste text.
+Verify that user can select, cut and paste text.
+Verify that user can select and delete a text.
+Verify that user can delete a text using backspace and delete buttons.
+Verify that user can navigate through the text in file using the arrow keys.
+Verify that user can navigate through the text in file using mouse pointer.
+Verify that user can edit and delete data in between the text file.
+Verify that user can undo any latest change done in file.
+Verify that user can redo any change undone by undo option.
+Verify that user can search for single or multiple characters and words through the file.
+Verify that user can search and replace single or multiple characters and words through the file.
+Verify that user can resize the notepad window.
+Verify that user can minimize the notepad editor window.
+Verify that user can maximize the notepad editor window.
+Verify that user can close the editor window by clicking the cross icon.
+
+
+
+
+*Test case scenarios of pen *
+
+
+
+
+
+*Test case scenarios of Pencil*
+
+Verify that the text written with the pencil is readable/legible.
+Verify that the user can write smoothly on different types/quality of paper surfaces.
+Check that the darkness/color of the text written by pencil is as per the specifications.
+Check the strength of the lead, it should not break when a specified(normal human) pressure is applied.
+Verify that the text written by pencil can be erased by normal erasers.
+Verify that the quality and strength of the pencil’s wood.
+Check whether the outer body of the pencil is circular or some polygon shape.
+Verify that the length and radius of the pencil are as per the specification.
+Verify that the weight of the application is as per the specification.
+Verify that the pencil can be sharpened easily by a normal sharpener.
+Verify the total length of text written by a complete pencil.
+Verify the total length of text written before you need to sharpen the pencil again.
+Verify that the pencil writes on the normally specified surfaces clearly.
+Verify the outer coloring of the pencil’s paint.
+Check if the pencil writes when putting in water for some time.
+Check the quality and strength of the pencil when immersed in water for some time.
+Check that the text written by pencil gets erased or note when the paper is immersed in water and later dried.
+
+
+
+*Test case scenarios of Registration Page *
+
+Verify that all the specified fields are present on the registration page
+Verify that the required/mandatory fields are marked with * against the field
+Verify that for better user interface dropdowns, radio buttons and checkboxes etc fields are displayed wherever possible instead of just textboxes
+Verify the page has both submit and cancel/reset buttons at the end
+Verify that clicking submit button after entering all the required fields, submits the data to the server
+Verify that clicking cancel/reset button after entering all the required fields, cancels the submit request and resets all the fields
+Verify that whenever possible validation should take place at client side
+Verify that not filling the mandatory fields and clicking the submit button will lead to a validation error
+Verify that not filling the optional fields and clicking submit button will still send data to the server without any validation error
+Check the upper limit of the textboxes
+Check validation on date and email fields (only valid dates and valid email Ids should be allowed
+Check validation on numeric fields by entering alphabets and special characters
+Verify that leading and trailing spaces are trimmed
+Verify that entering blank spaces on mandatory fields lead to validation error
+Verify that after making a request to the server and then sending the same request again with the same unique key will lead to server-side validation error
+
+
+*Test case scenarios of TV Remote Control *
+
+Verify that all the buttons are present- 0 to 9, volume, channel up-down and other audio-video functionality etc buttons
+Verify the functionality of power ON-OFF button
+Verify that the Remote Control should work for a particular TV set model numbers only
+Verify that user can navigate to different single digit and multi digit channels
+Verify that user can increase or decrease the volume
+Verify that user can navigate up and down the channel using channel up and down buttons
+Verify that functioning of audio-video and other auxillary buttons
+Verify the maximum distance from the Television set upto which the remote works smoothly
+Verify the button press event that triggers the functionality i.e. an event gets triggered on button down press, button release etc
+Verify the arc/different directions the remote control works correctly
+Verify the battery requirement of the remote control
+Verify the material of the remote’s body and its button
+Verify the weight of the remote control
+Verify the dimensions of remote control
+Verify the spacing between two buttons, the spacing between the two buttons should be optimum distance apart so that user can press a button comfortably
+Verify that there should be contrast between button’s color and remote’s outer body color
+Verify the remote’s functioning on pressing more than one button simultaneously
+Verify that the font – style and size of the numbers and other information should be readable
+Verify that on battery discharge, the remote should work normally on inserting new batteries
+Verify the pressure required to press the button
+Verify the strength of the remote’s outer body, if it works normally on dropping from a certain height
+Verify that any operation performed on the remote control while the TV is switched off should not make any difference to TV’s functioning when switched on
+Verify if the remote control is water proof or not, if its water proof, check if it works normally after immersing it in water
+
+
+
+*Test case scenarios of Stapler*
+
+Verify that the stapler staples the paper firmly.
+Verify that the stapler works correctly with a maximum number of paper sheets or a maximum width of papers to be stapled.
+Verify that stapler works correctly with materials other than paper that are commonly stapled things like cartridge sheet.
+Verify the pressure required to staple is not too high.
+Verify that the maximum number of pins that can be placed in a stapler at a time is as per the specification.
+Verify the dimension of the stapler.
+Verify the outer material of the stapler.
+Verify the color of the stapler’s outer body is as per the specifications.
+Verify the width of the pins used in the stapler.
+Verify that the component to unstaple is present in the stapler(usually at the end).
+
+
+*Test case scenarios of Table *
+
+Verify that the dimension of the table is as per the specifications
+Verify that the weight of the table is as per the specifications
+Check the height of the table’s seat from floor
+Verify that the table is stable enough to take a specified load
+Check the material used in making the table wood, plastic etc
+Check if the table’s leg are level to the floor
+Check the usability of the table as an office table, normal household table
+Verify the paint’s type and color
+Verify if the table’s material is brittle or not
+Check if the cushion is provided with table or not
+Check the condition when washed with water or effect of water on table
+
+
+*Test case scenarios of Traingle *
+
+Verify that the figure is closed (polygon).
+Verify that the figure is two-dimensional and formed with straight lines only.
+Verify that the figure has exactly three sides.
+Verify that the figure has exactly three vertices.
+Verify that the sum of the angles of the figure is 180 degrees.
+Verify that no two sides are perpendicular to each other
+Verify that the sum of the length of two sides of the traingle should be greater than length of the third side
+Verify that no two angles of triangle have 90 degree and above value.
+Verify the type of traingle is as per the specification, based on its sides – scalene, isosceles or equilateral.
+Verify the type of traingle is as per the specification, based on its angles – acute angle, obtuse angle or right angled triangle.
+
+
+*Test case scenarios of TV *
+
+Verify the dimensions of the TV – length, breadth and height are as per the specifications
+Check the TV technology type – LED, LCD etc
+Verify that the screen resolution of the TV is as per the specifications
+Check the material used for outer body of TV
+Check the material used for screen of TV
+Verify that on supplying specified power supply, TV gets switched on after pressing ‘Power’ button
+Verify that all the buttons on TV perform there functioning correctly
+Verify that TV screen clearly displayes videos
+Verify that audio of TV is audible without any noise
+Verify that buttons in TV have clearly visible lables indicating there functionality
+Verify that buttons in TV function correctly when pressed
+Verify that remote’s signal reciever recieves signal within a specified range
+
+
+
+*Test case scenarios of Wrist Watch *
+
+Verify the type of watch – analog or digital.
+In the case of an analog watch, check the correctness time displayed by the second, minute, and hour hand of the watch.
+In the case of a digital watch, check the digital display for hours, minutes, and seconds is correctly displayed.
+Verify the material of the watch and its strap.
+Check if the shape of the dial is as per specification.
+Verify the dimension of the watch is as per the specification.
+Verify the weight of the watch.
+Check if the watch is waterproof or not.
+Verify that the numbers in the dial are clearly visible or not.
+Check if the watch is having a date and day display or not.
+Verify the color of the text displayed in the watch – time, day, date, and other information.
+Verify that clock’s time can be corrected using the key in case of an analog clock and buttons in case of a digital clock.
+Check if the second hand of the watch makes ticking sound or not.
+Verify if the brand of the watch and check if its visible in the dial.
+Check if the clock is having stopwatch, timers, and alarm functionality or not.
+In the case of a digital watch, verify the format of the watch 12 hours or 24 hours.
+Verify if the watch comes with any guarantee or warranty.
+Verify if the dial has glass covering or plastic, check if the material is breakable or not.
+Verify if the dial’s glass/plastic is resistant to minor scratches or not.
+Check the battery requirement of the watch.
+
+*Test case scenarios of Whatsapp  *
+
+Verify that on downloading whatsapp application, user can register using a new mobile number.
+Verify that for a new mobile number user will get a verification code on his mobile and filling the same verifies the new user account.
+Check the maximum number of incorrect attempts allowed while filling the verification code.
+Verify that registering an existing mobile number for new user account registration is not allowed.
+Verify that on successful registartion all the contacts in user’s contact directory get imported to whatsapp contact list.
+Verify that user can set DP and status on whatsapp.
+Verify that user can update existing DP and whatsapp status.
+Verify that user can send message to any individual selected from his contact list.
+Verify that ‘Chats’ window contains all the chat list with DP and name and last message preview of the other person with whome chat was initiated.
+Verify that clicking a chat in the chat list opens a new window containing all the chats received and sent with the other person.
+Verify that user can check the message delivered and read time for a message in the ‘Message Info’ section.
+Verify that user can share or receive a contact with the other person.
+Verify that user can create a group adding multiple person from his contact list.
+Verify that user can send and receive message in group chats.
+Verify that user can send and receive images, audio, video, emoticons in chat to individuals.
+Verify that user can send and receive images, audio, video, emoticons in group chats.
+Verify that user can send and receive chats in secondary languages available.
+Verify that user can delete text, images, audio, video messages within a chat.
+Verify that user can clear complete chat history in an individual or group chat.
+Verify that user can archive chats in an individual or group chat.
+Verify that user can block a user to prevent any message from getting received from the blocked contact.
+Verify that user make whatsapp calls to the person in his contact list.
+Verify that user can receive whatsapp calls from person in his contact list.
+Verify that user can mark chats as favorite and access all chats marked as favorite from the ‘Favorites’ section.
+Chat settings test scenario
+Verify that user can set a chat wallpaper.
+Verify that user set privacy settings like turning on/off last seen, online status, read receipts etc.
+Verify that user can update notification settings like – notification sound, on/off, show preview for both group and individual chats.
+Verify that user can take the comlpete chat backup of his chats.
+Verify that user update his phone number that is used by whatsapp application.
+Verify that user can disable/delete his whatsapp account.
+Verify that user can check data usage by umages, audio, video and documents in whatsapp chats.
+
+*Test case scenarios of White Board *
+
+Verify that the dimension of the white board are as per the specifications
+Verify the exact color of the board – white color’s variant
+Verify the smoothness of the white board
+Verify the material used to develop surface of the white board
+Verify the material used in the body of the white board, its hooks and other parts
+Verify if the board is suitable for writing with normal/specified marker types
+Verify if there is sufficient friction in the board to allow writing in its surface
+Verify if text written in the board using normal markers gets erased using duster
+Check if there is holder for markers and duster in the white board
+Verify that board works normally in all climatic conditions- humidity, temperatures etc.
+Verify that the board doesn’t reflect too much light that makes it unreadable
+Verify the amount of pressure required to write in the board using normal markers
+Verify that markers of all colors but white should be visible on the board
+Verify that text written in the board should not fade away quickly(or before a specified time)
+Verify that the board has hooks to hang them over the wall
+Verify if text written using permanent markers, paints etc can be erased on the board using chemicals
+
+
+*Test case scenarios of  Youtube *
+
+
+Verify that user can upload single video or allowed format and size successfuly.
+Verify that while uploading user should select the video license and type of video along with its attributes like- name, artsist name, company etc.
+Verify the maximum size of video that is permitted to upload and check that any attempt to upload video of size greater than the allowed value results in an error message.
+Verify if there is any minimum size of video that is permitted to upload and any attempt to upload file size less than specified results in error message.
+Verify all the video formats that are allowed to upload – .mp4, .3gp, .avi etc and check that uploading file formats other that alllowed results in error message.
+Verify that uploading blank file should result in error message.
+Verify that user can upload multiple videos or allowed format and sie successfuly.
+Verify that upladers get notification of comments posted on the videos uploaded by them.
+Verify that user can view likes, dislikes and comments for their videos.
+Verify that user can reply to the comments posted in their videos.
+Test scenarios for Video Viewing Functionality
+Verify that video page can be opened by direct link to a video.
+Verify that on cliking the video play icon over the video, the video should play.
+Verify all the video player controls- play, pause, volume, mute etc.
+Verify that user can select the allowed video quality for playing the video.
+Verify that once the video is complete, user can replay the video using ‘replay’ icon.
+Verify that video should be searchable by name, displaying the most relevant video on the top in search results.
+Verify that other attributes of video like artist name, description should also be searchable.
+Verify that user should get auto suggestions while searching for videos in the youtube search bar.
+Verify that search results should display information like video name, thumbnail, video length, view counts etc.
+Verify that clicking the video thumbnails in the search results should lead to video page.
+Verify that video filtering and sorting option while searching for video like – sort be view count, like, upload date etc.
+Verify that user can view ‘view count’, ‘comments’, ‘like’ and ‘dislikes’ for a video.
+Verify that with each view the ‘view count’ increases by one.
+Verify that user can like or dislike a video and the corresponding count should increase by one.
+Verify that user can comment in the comments section.
+Verify that user should be presented with related videos in the sidebar section.
+Verify that the related videos are related to the current video or is based on the past viewing history of user.
+Verify that clicking rleated video thumbnail should open the video.
+Verify that for age restricted video, user is asked to login to youtube account.
+Verify that logged-in user should see there history as well as recommended videos in the home page.
+Verify that every video viewed goes to history for logged in user..
+Verify that user can view or delete history items.
+
+*Test case scenarios of  *
+
+*Test case scenarios of  *
